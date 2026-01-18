@@ -1,0 +1,75 @@
+name: MyEconomy
+api: [ "5.0.0" ]
+main: net\mydeacy\myeconomy\MyEconomyPlugin
+version: 1.0.0
+author: MyDeacy
+load: STARTUP
+description: "High quality economy plugin with MySQL/SQLite"
+commands:
+  mymoney:
+    description: "Shows your money"
+    usage: "/mymoney"
+    permission: economyapi.command.mymoney
+  topmoney:
+    description: "Shows top money of this server"
+    usage: "/topmoney [page]"
+    permission: economyapi.command.topmoney
+  setmoney:
+    description: "Set money of player"
+    usage: "/setmoney <player> <amount>"
+    permission: economyapi.command.setmoney
+  seemoney:
+    description: "Shows money of player"
+    usage: "/seemoney <player>"
+    permission: economyapi.command.seemoney
+  givemoney:
+    description: "Gives money to player"
+    usage: "/givemoney <player> <amount>"
+    permission: economyapi.command.givemoney
+  takemoney:
+    description: "Takes money from player"
+    usage: "/takemoney <player> <amount>"
+    permission: economyapi.command.takemoney
+  pay:
+    description: "Pays money to player"
+    usage: "/pay <player> <amount>"
+    permission: economyapi.command.pay
+  setlang:
+    description: "Set your language"
+    usage: "/setlang <language>"
+    permission: economyapi.command.setlang
+  mystatus:
+    description: "Shows your status of money"
+    usage: "/mystatus"
+    permission: economyapi.command.mystatus
+  money:
+    description: "Open MyEconomy menu"
+    usage: "/money"
+    permission: economyapi.command.moneyui
+    aliases: [ "economy", "myeconomy" ]
+
+permissions:
+  economyapi.command.mymoney:
+    default: true
+  economyapi.command.topmoney:
+    default: true
+  economyapi.command.setmoney:
+    default: op
+  economyapi.command.seemoney:
+    default: true
+  economyapi.command.givemoney:
+    default: op
+  economyapi.command.takemoney:
+    default: op
+  economyapi.command.pay:
+    default: true
+  economyapi.command.setlang:
+    default: true
+  economyapi.command.mystatus:
+    default: true
+  economyapi.command.moneyui:
+    default: true
+  economyapi.command.*:
+    default: op
+  economyapi.*:
+    default: op
