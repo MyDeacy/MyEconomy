@@ -5,8 +5,6 @@ namespace net\mydeacy\myeconomy\presentation;
 
 use net\mydeacy\myeconomy\api\MyEconomyAPI;
 use net\mydeacy\myeconomy\infrastructure\language\PlayerLanguageStore;
-use pocketmine\event\EventHandler;
-use pocketmine\event\EventPriority;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;
 
@@ -33,9 +31,9 @@ final class PlayerListener implements Listener {
 	/**
 	 * Handles join.
 	 *
+	 * @priority HIGHEST
 	 * @param PlayerJoinEvent $event Event.
 	 */
-	#[EventHandler(priority: EventPriority::HIGHEST)]
 	public function onJoin(PlayerJoinEvent $event) :void {
 		$player = $event->getPlayer();
 		$this->api->createAccount($player, null, true, "auto");

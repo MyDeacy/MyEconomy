@@ -3,101 +3,101 @@
   "commands": {
     "mymoney": {
       "usage": "/mymoney",
-      "description": "©•ª‚ÌŠ‹à‚ğ•\¦‚µ‚Ü‚·"
+      "description": "è‡ªåˆ†ã®æ‰€æŒé‡‘ã‚’è¡¨ç¤ºã—ã¾ã™"
     },
     "topmoney": {
-      "usage": "/topmoney [ƒy[ƒW]",
-      "description": "Š‹àƒ‰ƒ“ƒLƒ“ƒO‚ğ•\¦‚µ‚Ü‚·"
+      "usage": "/topmoney [ãƒšãƒ¼ã‚¸]",
+      "description": "æ‰€æŒé‡‘ãƒ©ãƒ³ã‚­ãƒ³ã‚°ã‚’è¡¨ç¤ºã—ã¾ã™"
     },
     "setmoney": {
-      "usage": "/setmoney <ƒvƒŒ[ƒ„[> <”’l>",
-      "description": "ƒvƒŒ[ƒ„[‚ÌŠ‹à‚ğİ’è‚µ‚Ü‚·"
+      "usage": "/setmoney <ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼> <æ•°å€¤>",
+      "description": "ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®æ‰€æŒé‡‘ã‚’è¨­å®šã—ã¾ã™"
     },
     "seemoney": {
-      "usage": "/seemoney <ƒvƒŒ[ƒ„[>",
-      "description": "ƒvƒŒ[ƒ„[‚ÌŠ‹à‚ğ•\¦‚µ‚Ü‚·"
+      "usage": "/seemoney <ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼>",
+      "description": "ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®æ‰€æŒé‡‘ã‚’è¡¨ç¤ºã—ã¾ã™"
     },
     "givemoney": {
-      "usage": "/givemoney <ƒvƒŒ[ƒ„[> <”’l>",
-      "description": "ƒvƒŒ[ƒ„[‚É‚¨‹à‚ğx‹‹‚µ‚Ü‚·"
+      "usage": "/givemoney <ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼> <æ•°å€¤>",
+      "description": "ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã«ãŠé‡‘ã‚’æ”¯çµ¦ã—ã¾ã™"
     },
     "takemoney": {
-      "usage": "/takemoney <ƒvƒŒ[ƒ„[> <”’l>",
-      "description": "ƒvƒŒ[ƒ„[‚©‚ç‚¨‹à‚ğŒ¸‚ç‚µ‚Ü‚·"
+      "usage": "/takemoney <ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼> <æ•°å€¤>",
+      "description": "ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã‹ã‚‰ãŠé‡‘ã‚’æ¸›ã‚‰ã—ã¾ã™"
     },
     "pay": {
-      "usage": "/pay <ƒvƒŒ[ƒ„[> <”’l>",
-      "description": "ƒvƒŒ[ƒ„[‚Éx•¥‚¢‚Ü‚·"
+      "usage": "/pay <ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼> <æ•°å€¤>",
+      "description": "ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã«æ”¯æ‰•ã„ã¾ã™"
     },
     "setlang": {
-      "usage": "/setlang <Œ¾Œê>",
-      "description": "©•ª‚ÌŒ¾Œê‚ğ‘I‚Ñ‚Ü‚·"
+      "usage": "/setlang <è¨€èª>",
+      "description": "è‡ªåˆ†ã®è¨€èªã‚’é¸ã³ã¾ã™"
     },
     "mystatus": {
       "usage": "/mystatus",
-      "description": "Š‹à‚ÌŠ„‡‚ğ•\¦‚µ‚Ü‚·"
+      "description": "æ‰€æŒé‡‘ã®å‰²åˆã‚’è¡¨ç¤ºã—ã¾ã™"
     },
     "money": {
       "usage": "/money",
-      "description": "MyEconomy?????????"
+      "description": "MyEconomyãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚’é–‹ãã¾ã™"
     }
   },
-  "language-set": "Œ¾Œê‚ğ%1‚É•ÏX‚µ‚Ü‚µ‚½B",
-  "request-cancelled": "ƒŠƒNƒGƒXƒg‚ÍƒLƒƒƒ“ƒZƒ‹‚³‚ê‚Ü‚µ‚½B",
-  "player-not-connected": "%1‚ÍƒIƒtƒ‰ƒCƒ“‚Å‚·B",
-  "player-never-connected": "%1‚Í‘¶İ‚µ‚Ü‚¹‚ñB",
-  "topmoney-tag": "- Š‹àƒ‰ƒ“ƒLƒ“ƒO‚ğ•\¦ (%1/%2ƒy[ƒW) -",
+  "language-set": "è¨€èªã‚’%1ã«å¤‰æ›´ã—ã¾ã—ãŸã€‚",
+  "request-cancelled": "ãƒªã‚¯ã‚¨ã‚¹ãƒˆã¯ã‚­ãƒ£ãƒ³ã‚»ãƒ«ã•ã‚Œã¾ã—ãŸã€‚",
+  "player-not-connected": "%1ã¯ã‚ªãƒ•ãƒ©ã‚¤ãƒ³ã§ã™ã€‚",
+  "player-never-connected": "%1ã¯å­˜åœ¨ã—ã¾ã›ã‚“ã€‚",
+  "topmoney-tag": "- æ‰€æŒé‡‘ãƒ©ãƒ³ã‚­ãƒ³ã‚°ã‚’è¡¨ç¤º (%1/%2ãƒšãƒ¼ã‚¸) -",
   "topmoney-format": "[%1] %2: %3",
-  "pay-failed": "x•¥‚¢‚É¸”s‚µ‚Ü‚µ‚½B",
-  "pay-success": "%2‚É%MONETARY_UNIT%%1x•¥‚¢‚Ü‚µ‚½B",
-  "money-paid": "%1‚ª‚ ‚È‚½‚É%MONETARY_UNIT%%2x•¥‚¢‚Ü‚µ‚½B",
-  "takemoney-must-be-number": "‹àŠz‚Í”š‚Å“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B",
-  "takemoney-invalid-number": "–³Œø‚È”’l‚Å‚·B",
-  "takemoney-player-lack-of-money": "%1‚Í%MONETARY_UNIT%%2‚ğ‚Á‚Ä‚¢‚Ü‚¹‚ñB %1‚ÌŠ‹à : %MONETARY_UNIT%%3",
-  "takemoney-money-taken": "Š‹à‚ª%MONETARY_UNIT%%1Œ¸­‚µ‚Ü‚µ‚½B",
-  "takemoney-took-money": "%1‚ÌŠ‹à‚ğ%MONETARY_UNIT%%2Œ¸‚ç‚µ‚Ü‚µ‚½B",
-  "takemoney-failed": "Š‹à‚ÌŒ¸Z‚É¸”s‚µ‚Ü‚µ‚½B",
-  "givemoney-must-be-number": "‹àŠz‚Í”š‚Å“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B",
-  "givemoney-invalid-number": "–³Œø‚È”’l‚Å‚·B",
-  "givemoney-money-given": "Š‹à‚ª%MONETARY_UNIT%%1‘‚¦‚Ü‚µ‚½B",
-  "givemoney-gave-money": "%2‚ÌŠ‹à‚ğ%MONETARY_UNIT%%1‘‚â‚µ‚Ü‚µ‚½B",
-  "seemoney-seemoney": "%1‚ÌŠ‹à : %2",
-  "setmoney-setmoney": "%1‚ÌŠ‹à‚ğ%MONETARY_UNIT%%2‚É‚µ‚Ü‚µ‚½B",
-  "setmoney-set": "Š‹à‚ª%MONETARY_UNIT%%1‚Éİ’è‚³‚ê‚Ü‚µ‚½B",
-  "setmoney-failed": "•s–¾‚ÈƒGƒ‰[‚É‚æ‚èŠ‹à‚Ìİ’è‚É¸”s‚µ‚Ü‚µ‚½B",
-  "setmoney-invalid-number": "%MONETARY_UNIT%%1‚Í–³Œø‚È”’l‚Å‚·B",
-  "mymoney-mymoney": "Œ»İ‚ÌŠ‹à : %MONETARY_UNIT%%1",
-  "mystatus-show": "‚ ‚È‚½‚ÌŠ‹à‚Í‘S‘Ì‚Ì%1%‚ğè‚ß‚Ä‚¢‚Ü‚·B",
+  "pay-failed": "æ”¯æ‰•ã„ã«å¤±æ•—ã—ã¾ã—ãŸã€‚",
+  "pay-success": "%2ã«%MONETARY_UNIT%%1æ”¯æ‰•ã„ã¾ã—ãŸã€‚",
+  "money-paid": "%1ãŒã‚ãªãŸã«%MONETARY_UNIT%%2æ”¯æ‰•ã„ã¾ã—ãŸã€‚",
+  "takemoney-must-be-number": "é‡‘é¡ã¯æ•°å­—ã§å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚",
+  "takemoney-invalid-number": "ç„¡åŠ¹ãªæ•°å€¤ã§ã™ã€‚",
+  "takemoney-player-lack-of-money": "%1ã¯%MONETARY_UNIT%%2ã‚’æŒã£ã¦ã„ã¾ã›ã‚“ã€‚ %1ã®æ‰€æŒé‡‘ : %MONETARY_UNIT%%3",
+  "takemoney-money-taken": "æ‰€æŒé‡‘ãŒ%MONETARY_UNIT%%1æ¸›å°‘ã—ã¾ã—ãŸã€‚",
+  "takemoney-took-money": "%1ã®æ‰€æŒé‡‘ã‚’%MONETARY_UNIT%%2æ¸›ã‚‰ã—ã¾ã—ãŸã€‚",
+  "takemoney-failed": "æ‰€æŒé‡‘ã®æ¸›ç®—ã«å¤±æ•—ã—ã¾ã—ãŸã€‚",
+  "givemoney-must-be-number": "é‡‘é¡ã¯æ•°å­—ã§å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚",
+  "givemoney-invalid-number": "ç„¡åŠ¹ãªæ•°å€¤ã§ã™ã€‚",
+  "givemoney-money-given": "æ‰€æŒé‡‘ãŒ%MONETARY_UNIT%%1å¢—ãˆã¾ã—ãŸã€‚",
+  "givemoney-gave-money": "%2ã®æ‰€æŒé‡‘ã‚’%MONETARY_UNIT%%1å¢—ã‚„ã—ã¾ã—ãŸã€‚",
+  "seemoney-seemoney": "%1ã®æ‰€æŒé‡‘ : %2",
+  "setmoney-setmoney": "%1ã®æ‰€æŒé‡‘ã‚’%MONETARY_UNIT%%2ã«ã—ã¾ã—ãŸã€‚",
+  "setmoney-set": "æ‰€æŒé‡‘ãŒ%MONETARY_UNIT%%1ã«è¨­å®šã•ã‚Œã¾ã—ãŸã€‚",
+  "setmoney-failed": "ä¸æ˜ãªã‚¨ãƒ©ãƒ¼ã«ã‚ˆã‚Šæ‰€æŒé‡‘ã®è¨­å®šã«å¤±æ•—ã—ã¾ã—ãŸã€‚",
+  "setmoney-invalid-number": "%MONETARY_UNIT%%1ã¯ç„¡åŠ¹ãªæ•°å€¤ã§ã™ã€‚",
+  "mymoney-mymoney": "ç¾åœ¨ã®æ‰€æŒé‡‘ : %MONETARY_UNIT%%1",
+  "mystatus-show": "ã‚ãªãŸã®æ‰€æŒé‡‘ã¯å…¨ä½“ã®%1%ã‚’å ã‚ã¦ã„ã¾ã™ã€‚",
   "menu-title": "MyEconomy",
-  "menu-content": "????????????",
-  "menu-button-mymoney": "???",
-  "menu-button-topmoney": "?????",
-  "menu-button-pay": "???",
-  "menu-button-seemoney": "?????",
-  "menu-button-setmoney": "?????",
-  "menu-button-givemoney": "?????",
-  "menu-button-takemoney": "?????",
-  "menu-button-mystatus": "??",
-  "menu-button-setlang": "??",
-  "form-invalid": "??????????????",
-  "form-pay-title": "???",
-  "form-pay-target": "??????",
-  "form-pay-amount": "??",
-  "form-topmoney-title": "?????",
-  "form-topmoney-page": "???",
-  "form-seemoney-title": "?????",
-  "form-seemoney-player": "??????",
-  "form-setmoney-title": "?????",
-  "form-setmoney-player": "??????",
-  "form-setmoney-amount": "??",
-  "form-givemoney-title": "?????",
-  "form-givemoney-player": "??????",
-  "form-givemoney-amount": "??",
-  "form-takemoney-title": "?????",
-  "form-takemoney-player": "??????",
-  "form-takemoney-amount": "??",
-  "form-setlang-title": "????",
-  "form-setlang-label": "???????????",
-  "form-pay-online": "?????????? (??)",
-  "form-pay-online-manual": "???"
+  "menu-content": "æ“ä½œã‚’é¸æŠã—ã¦ãã ã•ã„ã€‚",
+  "menu-button-mymoney": "æ‰€æŒé‡‘",
+  "menu-button-topmoney": "æ‰€æŒé‡‘ãƒ©ãƒ³ã‚­ãƒ³ã‚°",
+  "menu-button-pay": "é€é‡‘",
+  "menu-button-seemoney": "æ‰€æŒé‡‘ç¢ºèª",
+  "menu-button-setmoney": "æ‰€æŒé‡‘è¨­å®š",
+  "menu-button-givemoney": "æ‰€æŒé‡‘ä»˜ä¸",
+  "menu-button-takemoney": "æ‰€æŒé‡‘æ¸›ç®—",
+  "menu-button-mystatus": "æ‰€æŒé‡‘ã®å‰²åˆ",
+  "menu-button-setlang": "è¨€èªè¨­å®š",
+  "form-invalid": "å…¥åŠ›å†…å®¹ãŒæ­£ã—ãã‚ã‚Šã¾ã›ã‚“ã€‚",
+  "form-pay-title": "é€é‡‘",
+  "form-pay-target": "ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼å",
+  "form-pay-amount": "é‡‘é¡",
+  "form-topmoney-title": "æ‰€æŒé‡‘ãƒ©ãƒ³ã‚­ãƒ³ã‚°",
+  "form-topmoney-page": "ãƒšãƒ¼ã‚¸",
+  "form-seemoney-title": "æ‰€æŒé‡‘ç¢ºèª",
+  "form-seemoney-player": "ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼å",
+  "form-setmoney-title": "æ‰€æŒé‡‘è¨­å®š",
+  "form-setmoney-player": "ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼å",
+  "form-setmoney-amount": "é‡‘é¡",
+  "form-givemoney-title": "æ‰€æŒé‡‘ä»˜ä¸",
+  "form-givemoney-player": "ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼å",
+  "form-givemoney-amount": "é‡‘é¡",
+  "form-takemoney-title": "æ‰€æŒé‡‘æ¸›ç®—",
+  "form-takemoney-player": "ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼å",
+  "form-takemoney-amount": "é‡‘é¡",
+  "form-setlang-title": "è¨€èªè¨­å®š",
+  "form-setlang-label": "è¨€èªã‚’é¸æŠ",
+  "form-pay-online": "ã‚ªãƒ³ãƒ©ã‚¤ãƒ³ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ (ä»»æ„)",
+  "form-pay-online-manual": "æ‰‹å‹•å…¥åŠ›"
 }
