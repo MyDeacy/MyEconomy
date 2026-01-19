@@ -75,7 +75,7 @@ if ($plugin instanceof MyEconomyPlugin) {
 
 ## Events
 
-- `net\mydeacy\myeconomy\eventccount\AccountCreateEvent`
+- `net\mydeacy\myeconomy\event\account\AccountCreateEvent`
 - `net\mydeacy\myeconomy\event\money\AddMoneyEvent`
 - `net\mydeacy\myeconomy\event\money\ReduceMoneyEvent`
 - `net\mydeacy\myeconomy\event\money\SetMoneyEvent`
